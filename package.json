@@ -1,11 +1,14 @@
 {
   "name": "url_shorter",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.19.0"
+  }
   "description": "URL Shorter developed by Pan Chen",
   "main": "app.js",
   "scripts": {
     "devStart": "nodemon app.js",
-    "start": "start app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
