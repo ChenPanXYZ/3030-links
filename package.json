@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "engines": {
     "node": "10.19.0"
-  }
+  },
   "description": "URL Shorter developed by Pan Chen",
   "main": "app.js",
   "scripts": {
