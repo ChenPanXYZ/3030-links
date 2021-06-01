@@ -30,6 +30,9 @@ app.use(session({
 app.use(express.static(__dirname + "/client/build"))
 
 // All routes other than above will go to index.html
+app.get("/Login|/Signup|Test", (req, res) => {
+    res.sendFile(__dirname + "/client/build/index.html")
+})
 
 
 // User
