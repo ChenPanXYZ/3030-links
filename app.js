@@ -27,11 +27,11 @@ app.use(session({
 	saveUninitialized: true
 }))
 
-app.use(express.static(__dirname + "/client/build"))
+app.use(express.static("/client/build"))
 
 // All routes other than above will go to index.html
 app.get("/Login|/Signup|Test", (req, res) => {
-    res.sendFile(__dirname + "/client/build/index.html")
+    res.sendFile("/client/build/index.html")
 })
 
 
