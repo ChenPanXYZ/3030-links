@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "devStart": "nodemon app.js",
-    "start": "start app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,6 +16,7 @@
     "express": "^4.17.1",
     "express-session": "^1.17.0",
     "mongoose": "^5.9.11",
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.3",
+    "pm2": "^4.4.0"
   }
 }
